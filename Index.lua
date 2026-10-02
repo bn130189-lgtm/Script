@@ -129,7 +129,7 @@ v.ManualQuickDefaults = {
 }
 local genv2 = typeof(getgenv) == "function" and getgenv() or _G
 genv2.ChilliLib = v
-local v2 = v:CreateWindow({ Name = "Chilli Hub - Steal An Egg", DefaultTab = "Farm" })
+local v2 = v:CreateWindow({ Name = "ATRAS | GIABÌNH - Steal An Egg", DefaultTab = "Farm" })
 local defaultTab = v2:GetDefaultTab()
 genv2.ChilliHub_Window = v2
 genv2.ChilliHub_DefaultTab = defaultTab
