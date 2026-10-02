@@ -1,0 +1,1390 @@
+-- Luraph V15 Deobf / by RT4O
+-- Discord:https://discord.gg/EH23mXVqce
+-- Deobf at 2026-09-28 05:48:45 UTC
+-- ----------------------------------------------------
+
+local function onAttributeChanged(value)
+	local connection = value.AttributeChanged:Connect(function(attribute)
+	end)
+
+	connection:Disconnect()
+end
+
+onAttributeChanged(game)
+onAttributeChanged(workspace)
+local Folder = Instance.new("Folder")
+onAttributeChanged(Folder)
+Folder:GetChildren()
+Folder:Destroy()
+local Folder2 = Instance.new("Folder", Folder)
+onAttributeChanged(Folder2)
+Folder2.Name = "1922312834"
+Folder:WaitForChild("1922312834")
+Folder:Destroy()
+Folder2:Destroy()
+local HttpService = game:GetService("HttpService")
+onAttributeChanged(HttpService)
+local RunService = game:GetService("RunService")
+onAttributeChanged(RunService)
+task.wait()
+game:IsLoaded()
+
+-- loadstring() of 794 bytes: " \n  function LPH_NO_VIRTUALIZE(f) return f end;\n  function LPH_JIT_MAX(f) return f end;\n  function LPH_JIT(f) return f end;\n\n  function LPH_ENCNUM(n, ...) return n end;\n  function LPH_ENCSTR(s, ...) r"
+task.spawn(function(...)
+	local ContentProvider = game:GetService("ContentProvider")
+	ContentProvider:GetDebugId()
+	local Players = game:GetService("Players")
+	Players:GetDebugId()
+
+	task.spawn(function()
+		task.wait(0.1)
+		local Humanoid = Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+		Humanoid:GetAttribute("__Index")
+		task.wait(0.1)
+		local Humanoid2 = Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+		Humanoid2:GetAttribute("__Index")
+		task.wait(0.1)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+
+	task.spawn(function()
+		task.wait(0.1)
+		local AntiCollisionHighSeedPushBack = Players.LocalPlayer.Character:FindFirstChild("AntiCollisionHighSeedPushBack", true)
+		AntiCollisionHighSeedPushBack.Disabled = true
+		AntiCollisionHighSeedPushBack:Destroy()
+		task.wait(0.1)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+end, function()
+	ContentProvider:GetDebugId()
+	Players:GetDebugId()
+
+	task.spawn(function()
+		task.wait(0.1)
+		local Humanoid3 = Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+		Humanoid3:GetAttribute("__Index")
+		task.wait(0.1)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+
+	task.spawn(function()
+		task.wait(0.1)
+		local AntiCollisionHighSeedPushBack2 = Players.LocalPlayer.Character:FindFirstChild("AntiCollisionHighSeedPushBack", true)
+		AntiCollisionHighSeedPushBack2.Disabled = true
+		AntiCollisionHighSeedPushBack2:Destroy()
+		task.wait(0.1)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+end)
+
+local response = request({
+	Method = "GET",
+	Url = "https://raw.githubusercontent.com/AhmadV99/Main/refs/heads/main/Library/Key%20System/Encrypted"
+})
+
+response.Body:find("$", 1, true)
+
+local function getResult(url)
+	local response2 = game:HttpGet(url)
+	local result = load(response2)
+	local result2 = result()
+	return result2
+end
+
+local function onChildAdded(clientRenderedAssets)
+	local connection8 = clientRenderedAssets.ChildAdded:Connect(function(child3)
+		connection8:Disconnect()
+	end)
+end
+
+local function helper()
+	task.spawn(function()
+	end)
+end
+
+local function getResult2(module)
+	local result5 = module.Get()
+	workspace:GetServerTimeNow()
+	return result5
+end
+
+local function helper2(module, value, v)
+	local result6 = tostring(math.abs(math.modf(math.round(((module.Directory[value].ModelWeight * (tonumber(v.AssetScale) ^ 3)) * 100)) / 100))):reverse()
+	local result7 = result6:gsub("(%d%d%d)", "%1,")
+	local result8 = result7:reverse()
+	result8:gsub("^,", "")
+end
+
+local function helper3(module, value, result, value2)
+	local result22 = tostring(math.abs(math.modf(math.round(((module.Directory[value].ModelWeight * (tonumber(result.Inventory[value2].Scale) ^ 3)) * 100)) / 100))):reverse()
+	local result23 = result22:gsub("(%d%d%d)", "%1,")
+	local result24 = result23:reverse()
+	result24:gsub("^,", "")
+end
+
+local function setupHumanoid(humanoid)
+	humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+	humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+	humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics, false)
+end
+
+local function getResult3(module, players)
+	local result29 = module.ResolvePlot(players.LocalPlayer)
+	local ToUpdate = result29.PlotFolder:FindFirstChild("ToUpdate")
+	ToUpdate:FindFirstChild("PetArea")
+	return result29
+end
+
+local function helper4(players)
+	local HumanoidRootPart = players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+	local SeparationLine = workspace.__OBJECTS.Areas:FindFirstChild("SeparationLine")
+	local StartArea = workspace.__OBJECTS.Areas:FindFirstChild("StartArea")
+	SeparationLine.CFrame:PointToObjectSpace(HumanoidRootPart.Position)
+	SeparationLine.CFrame:PointToObjectSpace(StartArea.Position)
+end
+
+local function setupReplicatedStorage(replicatedStorage)
+	replicatedStorage:FindFirstChild("Shared")
+	replicatedStorage.Shared:FindFirstChild("Util")
+	replicatedStorage.Shared.Util:FindFirstChild("AreaEggCycle")
+	require(replicatedStorage.Shared.Util.AreaEggCycle)
+end
+
+local function setupReplicatedStorage2(replicatedStorage)
+	replicatedStorage:FindFirstChild("Client")
+	replicatedStorage.Client:FindFirstChild("AreaEggResetWall")
+	require(replicatedStorage.Client.AreaEggResetWall)
+end
+
+local function getReplicatedStorage(serviceName)
+	local ReplicatedStorage = game:GetService(serviceName)
+	ReplicatedStorage:GetDebugId()
+	return ReplicatedStorage
+end
+
+local function setupModule(module2, players)
+	module2.Frame("Treadmill")
+	players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+end
+
+local function setupPlayers(players, module)
+	players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+	players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+	local result29 = getResult3(module, players)
+	result29.PlotFolder:FindFirstChild("TreadmillBottom")
+	return result29
+end
+
+local function setupModule2(module)
+	module.BossMastery.AskClaimMilestone:InvokeServer("Mastery3")
+	module.BossMastery.AskClaimMilestone:InvokeServer("Mastery5")
+	module.BossMastery.AskClaimMilestone:InvokeServer("Mastery10")
+	module.BossMastery.AskClaimMilestone:InvokeServer("Mastery15")
+	module.BossMastery.AskClaimMilestone:InvokeServer("Mastery20")
+	module.BossMastery.AskClaimMilestone:InvokeServer("Mastery30")
+	module.BossMastery.AskClaimMilestone:InvokeServer("Infinite")
+end
+
+local function helper5(replicatedStorage)
+	setupReplicatedStorage2(replicatedStorage)
+	workspace:FindFirstChild("__OBJECTS")
+	local Areas = workspace.__OBJECTS:FindFirstChild("Areas")
+	Areas:FindFirstChild("WallStartVisual")
+end
+
+local function helper6(replicatedStorage)
+	setupReplicatedStorage(replicatedStorage)
+	helper5(replicatedStorage)
+end
+
+task.spawn(function(...)
+	Players:GetDebugId()
+	local ReplicatedStorage = getReplicatedStorage("ReplicatedStorage")
+	local UserInputService = getReplicatedStorage("UserInputService")
+	local GuiService = getReplicatedStorage("GuiService")
+	RunService:GetDebugId()
+	local Lighting = getReplicatedStorage("Lighting")
+	HttpService:GetDebugId()
+	local CollectionService = getReplicatedStorage("CollectionService")
+	local TeleportService = getReplicatedStorage("TeleportService")
+	local CoreGui = getReplicatedStorage("CoreGui")
+	local TweenService = getReplicatedStorage("TweenService")
+	Players.LocalPlayer:WaitForChild("PlayerGui")
+	Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+	_G.LastAction = "Idle"
+	local result2 = getResult("https://raw.githubusercontent.com/AhmadV99/Main/refs/heads/main/Library/Lib_5.5.0.lua")
+	local result4 = getResult("https://raw.githubusercontent.com/AhmadV99/Main/refs/heads/main/Library/Example/FuncsV4.lua")
+
+	task.spawn(function()
+		task.wait(0.05)
+		task.wait(0.05)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+
+	local ContextActionService = getReplicatedStorage("ContextActionService")
+	require(ReplicatedStorage.Shared.Remotes)
+	RaycastParams.new().FilterType = Enum.RaycastFilterType.Exclude
+	require(ReplicatedStorage.Client.ToolGameplayGuard)
+	require(ReplicatedStorage.Shared.Util.AreaEggSlotIdentity)
+	require(ReplicatedStorage.Client.MusicDirector)
+	local module = require(ReplicatedStorage.Client.Hud)
+	require(ReplicatedStorage.Shared.Remotes)
+	require(ReplicatedStorage.Data.Treadmills)
+
+	task.spawn(function()
+		ContextActionService:GetDebugId()
+		task.wait(0.5)
+		local Humanoid4 = Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+		Humanoid4:GetAttribute("ControllerJumpEnabled")
+		task.wait(0.5)
+		local Humanoid5 = Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+		Humanoid5:GetAttribute("ControllerJumpEnabled")
+		task.wait(0.5)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+
+	task.spawn(function()
+		task.wait(0.1)
+		setupModule(module, Players)
+		task.wait(0.1)
+		setupModule(module, Players)
+		task.wait(0.1)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+
+	ReplicatedStorage:FindFirstChild("Data")
+	local module2 = require(ReplicatedStorage.Data.Assets)
+
+	for k, v in pairs(module2.Directory) do
+	end
+
+	ReplicatedStorage:FindFirstChild("Data")
+	local module3 = require(ReplicatedStorage.Data.Assets)
+
+	for k2, v2 in pairs(module3.Directory) do
+	end
+
+	ReplicatedStorage:FindFirstChild("Shared")
+	ReplicatedStorage.Shared:FindFirstChild("Util")
+	ReplicatedStorage.Shared.Util:FindFirstChild("AssetEarnings")
+	require(ReplicatedStorage.Shared.Util.AssetEarnings)
+	ReplicatedStorage:FindFirstChild("Data")
+	require(ReplicatedStorage.Data.Trails)
+	local module4 = require(ReplicatedStorage.Data.Assets)
+
+	for k3, v3 in pairs(module4.Directory) do
+	end
+
+	ReplicatedStorage:FindFirstChild("Data")
+	local module5 = require(ReplicatedStorage.Data.Assets)
+	ReplicatedStorage:FindFirstChild("Shared")
+	local module6 = require(ReplicatedStorage.Shared.Save)
+	ReplicatedStorage:FindFirstChild("Shared")
+	ReplicatedStorage.Shared:FindFirstChild("Modules")
+	ReplicatedStorage.Shared.Modules:FindFirstChild("Mutations")
+	require(ReplicatedStorage.Shared.Modules.Mutations)
+	ReplicatedStorage:FindFirstChild("Shared")
+	ReplicatedStorage.Shared:FindFirstChild("Util")
+	ReplicatedStorage.Shared.Util:FindFirstChild("MonetizationEntitlements")
+	require(ReplicatedStorage.Shared.Util.MonetizationEntitlements)
+	ReplicatedStorage:FindFirstChild("Data")
+	local module7 = require(ReplicatedStorage.Data.Assets)
+	ReplicatedStorage:FindFirstChild("Shared")
+	local module8 = require(ReplicatedStorage.Shared.Save)
+	ReplicatedStorage:FindFirstChild("Shared")
+	ReplicatedStorage.Shared:FindFirstChild("Modules")
+	ReplicatedStorage.Shared.Modules:FindFirstChild("Mutations")
+	require(ReplicatedStorage.Shared.Modules.Mutations)
+	ReplicatedStorage:FindFirstChild("Shared")
+	ReplicatedStorage.Shared:FindFirstChild("Util")
+	ReplicatedStorage.Shared.Util:FindFirstChild("MonetizationEntitlements")
+	require(ReplicatedStorage.Shared.Util.MonetizationEntitlements)
+	ReplicatedStorage:FindFirstChild("Data")
+	local module9 = require(ReplicatedStorage.Data.Assets)
+
+	for k4, v4 in pairs(module9.Directory) do
+	end
+
+	ReplicatedStorage:FindFirstChild("Data")
+	local module10 = require(ReplicatedStorage.Data.Assets)
+
+	for k5, v5 in pairs(module10.Directory) do
+	end
+
+	ReplicatedStorage:FindFirstChild("Shared")
+	ReplicatedStorage.Shared:FindFirstChild("Remotes")
+	local module11 = require(ReplicatedStorage.Shared.Remotes)
+
+	module11.BossEvent.HealthShifted.OnClientEvent:Connect(function()
+		-- [envlog] error: LPH:7599: Script:3: attempt to compare userdata <= number
+	end)
+
+	module11.BossEvent.StateShifted.OnClientEvent:Connect(function()
+	end)
+
+	workspace.ChildAdded:Connect(function(child)
+	end)
+
+	workspace.ChildRemoved:Connect(function(child2)
+	end)
+
+	local connection7 = Players.LocalPlayer.CharacterAdded:Connect(function(character)
+		connection7:Disconnect()
+	end)
+
+	task.spawn(function()
+		ReplicatedStorage:FindFirstChild("Data")
+		local Shared = ReplicatedStorage:FindFirstChild("Shared")
+		local Data = ReplicatedStorage:FindFirstChild("Data")
+		local Client = ReplicatedStorage:FindFirstChild("Client")
+		Shared:FindFirstChild("Remotes")
+		require(Shared.Remotes)
+		Shared:FindFirstChild("Save")
+		local module12 = require(Shared.Save)
+		Data:FindFirstChild("Assets")
+		require(Data.Assets)
+		Data:FindFirstChild("Bases")
+		require(Data.Bases)
+		Data:FindFirstChild("Rarity")
+		require(Data.Rarity)
+		Data:FindFirstChild("Treadmills")
+		require(Data.Treadmills)
+		Data:FindFirstChild("Areas")
+		require(Data.Areas)
+		Data:FindFirstChild("Trails")
+		require(Data.Trails)
+		Shared:FindFirstChild("SettingsCmds")
+		require(Shared.SettingsCmds)
+		Client:FindFirstChild("EggState")
+		require(Client.EggState)
+		Client:FindFirstChild("PlotState")
+		require(Client.PlotState)
+		task.wait(1)
+		module12.Get()
+		task.wait(1)
+		module12.Get()
+		task.wait(1)
+		-- [envlog] the statements above repeat forever (loop)
+	end)
+
+	helper()
+
+	task.spawn(function()
+	end)
+
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+	helper()
+
+	task.spawn(function()
+		local ClientRenderedAssets = workspace:FindFirstChild("ClientRenderedAssets")
+		onChildAdded(ClientRenderedAssets)
+	end)
+
+	task.spawn(function()
+		local children = workspace:GetChildren()
+
+		for i, v6 in ipairs(children) do
+		end
+	end)
+
+	task.spawn(function()
+		local Terrain = workspace:FindFirstChild("Terrain")
+		onChildAdded(Terrain)
+	end)
+
+	helper()
+	helper()
+	helper()
+
+	task.spawn(function()
+		local descendants = workspace:GetDescendants()
+
+		for i2, v7 in ipairs(descendants) do
+		end
+
+		workspace.DescendantAdded:Connect(function(descendant)
+			descendant.HoldDuration = 0
+		end)
+	end)
+
+	helper()
+	helper()
+	helper()
+
+	local Window = result2:CreateWindow({
+	Title = "Speed Hub X | Steal An Egg 1.2.1 | discord.gg/speedhubx",
+	Description = "",
+	Key = "KZgN0t5pK6hBaqVLAMLg27aqXNDb8v",
+	Key1 = "c9RkyXAjNpJc9u1fexvw1cbxYTWvMy",
+	Key2 = "Xp8712WzbaRn8EtrLnXk8gDdzQB8jF",
+	Key3 = "wixUQtibEtmkTQ7WpSFGq4YfBuqJQy",
+	Key4 = "KbSf6UWZ6vndbgp8Vh9EHdM0dU8DFf",
+	Key5 = "mP3tTRKYwhNKLkpFCdVuj922xqTgJp",
+	Key6 = "heMGEmHXFUaiTaStAihwTfwgSJguUwQQxdE",
+	Key7 = "khEXYXSHSJpDabFqudKJWEWbEyzXYgLmgTF",
+	Key8 = "MLGkWCxxHaqhumMpSmpvJMuiUEpeqUAYvxN",
+	SaveSystem = { Enable = true, File = "StealAnEgg" },
+	Security = { Asset = true, NoIcon = false, NoVim = false },
+	["Tab Width"] = 130
+})
+
+	local Tab = Window:CreateTab({ Name = "Home", Icon = "rbxassetid://10734942198" })
+	local Tab2 = Window:CreateTab({ Name = "Farm", Icon = "rbxassetid://10723345518" })
+	local Tab3 = Window:CreateTab({ Name = "Progress", Icon = "rbxassetid://10734961809" })
+	local Tab4 = Window:CreateTab({ Name = "Predictor", Icon = "rbxassetid://10723415903" })
+	local Tab5 = Window:CreateTab({ Name = "ESP", Icon = "rbxassetid://10747373176" })
+	local Tab6 = Window:CreateTab({ Name = "Misc", Icon = "rbxassetid://11447063791" })
+	local Tab7 = Window:CreateTab({ Name = "Settings", Icon = "rbxassetid://10734950309" })
+	local Section = Tab:AddSection("Discord", true)
+
+	result4:Button(Section, "Discord Invite", "Copy invite link", function()
+		setclipboard("")
+	end)
+
+	local Section2 = Tab4:AddSection("Pet Predictor")
+	Section2:AddParagraph({ "Pet Predictor", "Loading pet predictions..." })
+
+	result4:Dropdown(Section2, "Egg Scope", "Select which eggs to inspect", false, { "Placed Eggs (In Pen)", "All Eggs (Inc. Inventory)" }, { "Placed Eggs (In Pen)" }, true, function()
+		local result5 = getResult2(module6)
+
+		for k6, v8 in pairs(result5.EggInventory) do
+			helper2(module5, 508, v8)
+		end
+		-- [envlog] error: LPH:9250: LPH:6892: LPH:6793: LPH:6665: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	result4:Dropdown(Section2, "Sort Pets By", "Sort order for predicted pet list", false, { "Income (Highest)", "Rarity (Highest)", "Time (Ready Soon)" }, { "Income (Highest)" }, true, function()
+		local result9 = getResult2(module6)
+
+		for k7, v9 in pairs(result9.EggInventory) do
+			helper2(module5, 544, v9)
+		end
+		-- [envlog] error: LPH:9262: LPH:6892: LPH:6793: LPH:6665: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	result4:Button(Section2, "Refresh Pets", "Recalculate pet predictions & growth timers now", function()
+		local result13 = getResult2(module6)
+
+		for k8, v10 in pairs(result13.EggInventory) do
+			helper2(module5, 579, v10)
+		end
+		-- [envlog] error: LPH:9266: LPH:6892: LPH:6793: LPH:6665: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	task.spawn(function()
+		task.wait(2.5)
+		local result17 = getResult2(module6)
+
+		for k9, v11 in pairs(result17.EggInventory) do
+			helper2(module5, 612, v11)
+		end
+		-- [envlog] error: LPH:9272: LPH:6892: LPH:6793: LPH:6665: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	local Section3 = Tab4:AddSection("Fuse Predictor")
+	Section3:AddParagraph({ "Fuse Predictor", "Detecting fuse machine status..." })
+
+	result4:Button(Section3, "Refresh Fuse Predictor", "Recalculate fuse machine odds & countdown now", function()
+		local result21 = module8.Get()
+
+		for i3, v12 in ipairs(result21.FusionSlots) do
+		end
+
+		helper3(module7, 651, result21, 649)
+		-- [envlog] error: LPH:9282: LPH:7107: LPH:7047: LPH:6946: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	task.spawn(function()
+		task.wait(3)
+		local result25 = module8.Get()
+
+		for i4, v13 in ipairs(result25.FusionSlots) do
+		end
+
+		helper3(module7, 684, result25, 682)
+		-- [envlog] error: LPH:9288: LPH:7107: LPH:7047: LPH:6946: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	local Section4 = Tab2:AddSection("Automation Steal")
+	Section4:AddSeperator({ " - [ Master Switch ] - " })
+
+	result4:Toggle(Section4, "Auto Steal", "Automatically steal eggs from areas", false, true, function()
+	end)
+
+	result4:Toggle(Section4, "Prioritize Rift Recipe Eggs", "Prioritize stealing eggs needed for active Rift trade-in sacrifice", false, true, function()
+	end)
+
+	Section4:AddSeperator({ " - [ Target & Filter Config ] - " })
+	ReplicatedStorage:FindFirstChild("Data")
+	local Shared2 = ReplicatedStorage:FindFirstChild("Shared")
+	local Data2 = ReplicatedStorage:FindFirstChild("Data")
+	local Client2 = ReplicatedStorage:FindFirstChild("Client")
+	Shared2:FindFirstChild("Remotes")
+	local module13 = require(Shared2.Remotes)
+	Shared2:FindFirstChild("Save")
+	local module14 = require(Shared2.Save)
+	Data2:FindFirstChild("Assets")
+	local module15 = require(Data2.Assets)
+	Data2:FindFirstChild("Bases")
+	require(Data2.Bases)
+	Data2:FindFirstChild("Rarity")
+	require(Data2.Rarity)
+	Data2:FindFirstChild("Treadmills")
+	require(Data2.Treadmills)
+	Data2:FindFirstChild("Areas")
+	local module16 = require(Data2.Areas)
+	Data2:FindFirstChild("Trails")
+	require(Data2.Trails)
+	Shared2:FindFirstChild("SettingsCmds")
+	local module17 = require(Shared2.SettingsCmds)
+	Client2:FindFirstChild("EggState")
+	require(Client2.EggState)
+	Client2:FindFirstChild("PlotState")
+	local module18 = require(Client2.PlotState)
+
+	for k10, v14 in pairs(module16.Directory) do
+	end
+
+	result4:Dropdown(Section4, "Target Areas", "Select one or multiple areas (empty = all)", true, { k10 }, {}, true, function()
+	end)
+
+	result4:Dropdown(Section4, "Min Rarity", "Only steal eggs with rarity >= this", false, {
+	"All",
+	"1 - Common",
+	"2 - Uncommon",
+	"3 - Rare",
+	"4 - Epic",
+	"5 - Legendary",
+	"6 - Mythic",
+	"7 - Cosmic",
+	"8 - Secret",
+	"9 - Eternal",
+	"10 - Divine"
+}, { "All" }, true, function()
+	end)
+
+	require(ReplicatedStorage.Data.Assets)
+
+	result4:Dropdown(Section4, "Target Specific Eggs", "Target only selected eggs (Empty = All)", true, {
+	"Chicken [Common]",
+	"Dog [Common]",
+	"Duckling [Common]",
+	"Frog [Common]",
+	"Jerboa [Common]",
+	"Bird [Uncommon]",
+	"Catfish [Uncommon]",
+	"Fennec [Uncommon]",
+	"Burrowing Owl [Rare]",
+	"Camel [Rare]",
+	"Chimpanzee [Rare]",
+	"Dodo [Rare]",
+	"Lava Gecko [Rare]",
+	"Parrotfish [Rare]",
+	"Penguin [Rare]",
+	"Raccoon [Rare]",
+	"Toucan [Rare]",
+	"Tung Tung Sahur [Rare]",
+	"Turtle [Rare]",
+	"Bananita Dolphinita [Epic]",
+	"Bear [Epic]",
+	"Centapede [Epic]",
+	"Crane [Epic]",
+	"Crocodile [Epic]",
+	"Fox [Epic]",
+	"Lava frog [Epic]",
+	"Swan [Epic]",
+	"Swordfish [Epic]",
+	"Tob Tobi Tob Tob [Epic]",
+	"Trulimero Trulicina [Epic]",
+	"Walrus [Epic]",
+	"Axolotl [Legendary]",
+	"Baby Aurora Dragon [Legendary]",
+	"Brr Brr Patapim [Legendary]",
+	"Cosmic Gecko [Legendary]",
+	"Crustacia [Legendary]",
+	"Flaming Bull [Legendary]",
+	"Gorilla [Legendary]",
+	"Lava Iguana [Legendary]",
+	"Mecha Scorpio [Legendary]",
+	"Orangutini Ananassini [Legendary]",
+	"Polar Bear [Legendary]",
+	"Pterodactyl [Legendary]",
+	"Salamander [Legendary]",
+	"Scorpio [Legendary]",
+	"Shark [Legendary]",
+	"Snake [Legendary]",
+	"Spideron [Legendary]",
+	"Ankylosaurus [Mythic]",
+	"Belula Beluga [Mythic]",
+	"Bladehide [Mythic]",
+	"Chillin Chilli [Mythic]",
+	"Cosmic Gorilla [Mythic]",
+	"Froggo [Mythic]",
+	"Mammoth [Mythic]",
+	"Mecha Froggo [Mythic]",
+	"Orca [Mythic]",
+	"Red Panda [Mythic]",
+	"Sabertooth Tiger [Mythic]",
+	"Sand Spider [Mythic]",
+	"Scorpion [Mythic]",
+	"Shadow Dragon [Mythic]",
+	"Spider [Mythic]",
+	"Tiger [Mythic]",
+	"Beluga Whale [Cosmic]",
+	"Bronto [Cosmic]",
+	"Crawler [Cosmic]",
+	"Demon Imp [Cosmic]",
+	"Drilla [Cosmic]",
+	"Hellhound [Cosmic]",
+	"King Mammoth [Cosmic]",
+	"Koi [Cosmic]",
+	"La Vacca Saturno Saturnita [Cosmic]",
+	"Leviathan [Cosmic]",
+	"Mangolini Parrochini [Cosmic]",
+	"Mantaris [Cosmic]",
+	"Mecha Crawler [Cosmic]",
+	"Rhinotaur [Cosmic]",
+	"Royal Sphinx [Cosmic]",
+	"Snowy Owl [Cosmic]",
+	"Triceratops [Cosmic]",
+	"Whale Shark [Cosmic]",
+	"Bombo Croco [Secret]",
+	"Cerberus [Secret]",
+	"Cosmic Dragon [Secret]",
+	"Cosmic Skeleton Boss [Secret]",
+	"Crocodon [Secret]",
+	"Ember Dragon [Secret]",
+	"Gargoyle [Secret]",
+	"King Snake [Secret]",
+	"Kraken [Secret]",
+	"Mecha Crocodon [Secret]",
+	"Minotaur [Secret]",
+	"Mutant Shark [Secret]",
+	"Scorched Dragon [Secret]",
+	"Stag [Secret]",
+	"TRex [Secret]",
+	"Tralaledon [Secret]",
+	"Yeti [Secret]",
+	"Balrog [Eternal]",
+	"El Maja [Eternal]",
+	"Eternal Lunar Dragon [Eternal]",
+	"Gorilla King [Eternal]",
+	"Ice Dragon [Eternal]",
+	"Krakenoid [Eternal]",
+	"Lava Dragon [Eternal]",
+	"Mecha Krakenoid [Eternal]",
+	"Mosasaurus [Eternal]",
+	"Oni Tiger [Eternal]",
+	"Phoenix [Eternal]",
+	"Strawberry Elephant [Eternal]",
+	"Void Dragon [Eternal]",
+	"Archdemon Dragon [Divine]",
+	"Dreadscale [Divine]",
+	"Kitsune [Divine]",
+	"Mecha Dreadscale [Divine]",
+	"Nightflame [Divine]",
+	"Unicorn [Divine]"
+}, {}, true, function(arg23)
+		for k11, v15 in pairs(arg23) do
+		end
+	end)
+
+	result4:Dropdown(Section4, "Steal Priority", "Select target egg priority when stealing", false, { "Best Rarity", "Best Weight", "Mutation", "Highest Money/Sec", "Lowest Money/Sec" }, { "Best Rarity" }, true, function()
+	end)
+
+	Section4:AddSeperator({ " - [ Movement & Speed ] - " })
+
+	result4:Textbox(Section4, "Tween Speed", "Speed of linear tween movement (Default: 300 studs/s)", "720", true, function()
+		-- [envlog] error: LPH:9444: Script:3: attempt to compare number <= userdata
+	end)
+
+	result4:Textbox(Section4, "Steal Timeout", "Main egg grab timeout in seconds (Default: 2.5s)", "2.5", true, function()
+		-- [envlog] error: LPH:9453: Script:3: attempt to compare number < userdata
+	end)
+
+	result4:Toggle(Section4, "Run Animation", "Play natural running animation matching tween speed", true, true, function()
+	end)
+
+	Section4:AddSeperator({ " - [ Misc ] - " })
+
+	result4:Toggle(Section4, "Anti Knockback / Ragdoll", "", false, true, function()
+		local Humanoid6 = Players.LocalPlayer.Character:WaitForChild("Humanoid", 5)
+		setupHumanoid(Humanoid6)
+		local descendants2 = Players.LocalPlayer.Character:GetDescendants()
+
+		for i5, v16 in ipairs(descendants2) do
+			v16.Name:find("RagdollConstraint")
+			v16:Destroy()
+		end
+
+		local connection10 = Players.LocalPlayer.Character.DescendantAdded:Connect(function(descendant2)
+			descendant2.Name:find("RagdollConstraint")
+
+			task.defer(function()
+			end)
+		end)
+
+		Players.LocalPlayer.CharacterAdded:Connect(function(character2)
+			local Humanoid7 = character2:WaitForChild("Humanoid", 5)
+			setupHumanoid(Humanoid7)
+			local descendants5 = character2:GetDescendants()
+
+			for i11, v23 in ipairs(descendants5) do
+				v23.Name:find("RagdollConstraint")
+				v23:Destroy()
+			end
+
+			connection10:Disconnect()
+
+			character2.DescendantAdded:Connect(function(descendant3)
+				descendant3.Name:find("RagdollConstraint")
+
+				task.defer(function()
+				end)
+			end)
+		end)
+	end)
+
+	result4:Toggle(Section4, "Auto Pick Dropped Egg", "Instantly re-grab the egg if a guard knocks it out of your hands (best paired with Anti Knockback / Ragdoll)", false, true, function()
+	end)
+
+	result4:Toggle(Section4, "Instant Prompt", "", false, true, function()
+		local descendants3 = workspace:GetDescendants()
+
+		for i6, v17 in ipairs(descendants3) do
+			v17.HoldDuration = 0
+		end
+	end)
+
+	local Section5 = Tab2:AddSection("Automation Place Egg")
+	Section5:AddSeperator({ " - [ Pen Placement ] - " })
+
+	result4:Toggle(Section5, "Auto Place Egg", "Place all unplaced eggs into the pen", false, true, function()
+	end)
+
+	result4:Dropdown(Section5, "Place Egg Rule", "Select condition for placing eggs into pen", false, { "Egg Inventory Full", "After Steal", "Steal Idle" }, { "Egg Inventory Full" }, true, function()
+	end)
+
+	result4:Dropdown(Section5, "Place Egg Priority", "", false, { "Choose Any Egg", "Highest KG", "Lowest KG", "Highest Money/Sec", "Lowest Money/Sec" }, { "Choose Any Egg" }, true, function()
+	end)
+
+	result4:Textbox(Section5, "Max Placed Eggs", "Maximum eggs to place into pen (Default: 30)", "30", true, function()
+	end)
+
+	local Section6 = Tab2:AddSection("Automation Treadmill")
+	Section6:AddSeperator({ " - [ Treadmill Automation ] - " })
+
+	result4:Toggle(Section6, "Auto Treadmill", "Train on treadmill for Speed Power", false, true, function()
+	end)
+
+	result4:Toggle(Section6, "Hide Treadmill", "Hide treadmill underground & block Auto Treadmill", false, true, function()
+		local result29 = setupPlayers(Players, module18)
+		-- [envlog] error: LPH:9545: LPH:4869: Script:3: attempt to compare userdata < number
+	end)
+
+	result4:Button(Section6, "Exit From Treadmill", "Clear treadmill effects & jump off", function()
+		local result30 = setupPlayers(Players, module18)
+		-- [envlog] error: LPH:9553: LPH:4869: Script:3: attempt to compare userdata < number
+	end)
+
+	local Section7 = Tab2:AddSection("Automation Hatch & Equip")
+
+	result4:Toggle(Section7, "Auto Hatch", "Automatically hatch ready eggs", false, true, function()
+	end)
+
+	result4:Toggle(Section7, "Auto Equip Best", "Automatically equip best pets", false, true, function()
+	end)
+
+	local Section8 = Tab2:AddSection("Automation Favorite")
+	Section8:AddSeperator({ " - [ Auto Favorite Pet ] - " })
+
+	result4:Toggle(Section8, "Auto Favorite Pet", "Auto lock pets matching rarity & mutation filters", false, true, function()
+		task.spawn(function()
+			helper4(Players)
+			-- [envlog] error: LPH:5285: LPH:1928: Script:3: attempt to compare number <= userdata
+		end)
+	end)
+
+	result4:Dropdown(Section8, "Favorite Min Rarity", "Favorite pets with rarity >= this (select Off for mutation only)", false, {
+	"Off",
+	"1 - Common",
+	"2 - Uncommon",
+	"3 - Rare",
+	"4 - Epic",
+	"5 - Legendary",
+	"6 - Mythic",
+	"7 - Cosmic",
+	"8 - Secret",
+	"9 - Eternal",
+	"10 - Divine"
+}, { "Off" }, true, function(arg59)
+		arg59:match("^(%d+)")
+	end)
+
+	result4:Dropdown(Section8, "Favorite Mutation", "Favorite pets with this mutation (select Off for rarity only)", false, {
+	"Off",
+	"All Mutations",
+	"Rainbow",
+	"Golden",
+	"Silver",
+	"Celestial",
+	"Voidtouched",
+	"Heavenly",
+	"Plasma",
+	"Dawnbound",
+	"Bloodmoon",
+	"Magma",
+	"Shocked",
+	"Frozen",
+	"Zombified",
+	"Alpha",
+	"Twisted",
+	"Pollinated",
+	"HoneyGlazed",
+	"Candy",
+	"Choc",
+	"Windstruck",
+	"Burnt",
+	"Wet",
+	"Chilled",
+	"Scared"
+}, { "Off" }, true, function()
+	end)
+
+	result4:Button(Section8, "Favorite Pets Now", "Lock matching pets immediately", function()
+		helper4(Players)
+		-- [envlog] error: LPH:9635: LPH:5285: LPH:1928: Script:3: attempt to compare number <= userdata
+	end)
+
+	Section8:AddSeperator({ " - [ Equipped Pets ] - " })
+
+	result4:Toggle(Section8, "Auto Favourite Equiped Pets", "Auto favourite all currently equipped pets", false, true, function()
+	end)
+
+	result4:Toggle(Section8, "Auto UnFavourite Equiped Pets", "Auto unfavourite all currently equipped pets", false, true, function()
+	end)
+
+	result4:Button(Section8, "Favourite Equipped Now", "Favourite all equipped pets immediately", function()
+		module14.Get()
+		local StarterGui = game:GetService("StarterGui")
+	end)
+
+	result4:Button(Section8, "UnFavourite Equipped Now", "Unfavourite all equipped pets immediately", function()
+		module14.Get()
+	end)
+
+	local Section9 = Tab2:AddSection("Automation Fuse Machine")
+	Section9:AddSeperator({ " - [ Fuse Machine ] - " })
+
+	result4:Toggle(Section9, "Auto Fuse Machine", "", false, true, function()
+		task.spawn(function()
+			module14.Get()
+		end)
+	end)
+
+	result4:Dropdown(Section9, "Fuse Priority Mode", "Order in which pet categories are chosen to fuse", false, { "Lowest Rarity First", "Highest Rarity First", "Most Duplicates First", "Specific Species Only" }, { "Lowest Rarity First" }, true, function()
+	end)
+
+	result4:Dropdown(Section9, "Max Rarity to Fuse", "Only fuse pets with rarity <= this", false, {
+	"All",
+	"1 - Common",
+	"2 - Uncommon",
+	"3 - Rare",
+	"4 - Epic",
+	"5 - Legendary",
+	"6 - Mythic",
+	"7 - Cosmic",
+	"8 - Secret",
+	"9 - Eternal",
+	"10 - Divine"
+}, { "All" }, true, function(arg77)
+		arg77:match("^(%d+)")
+	end)
+
+	result4:Dropdown(Section9, "Specific Species to Fuse", "Select specific pet species to auto fuse (empty = all allowed)", true, {}, {}, true, function()
+	end)
+
+	result4:Toggle(Section9, "Skip Mutated Pets", "Do not fuse pets with special mutations (Rainbow, Golden, Silver, etc.)", true, true, function()
+	end)
+
+	result4:Toggle(Section9, "Eject Incomplete Slots", "Auto-eject pets in machine if <3 matching pets exist", false, true, function()
+	end)
+
+	local Section10 = Tab2:AddSection("The Rift Machine & Sacrifice")
+	Section10:AddSeperator({ " - [ Rift Machine & Sacrifice ] - " })
+	local Paragraph = Section10:AddParagraph({ "Rift Machine Status", "Loading Rift data..." })
+
+	result4:Button(Section10, "Refresh Rift Status", "Query server for active banner, pity, and recipe", function()
+		module13.Rift.AskState:InvokeServer()
+
+		Paragraph:Set({
+	Title = "Rift Machine Status",
+	Content = "<font color=\"#888899\">Fetching Rift machine status from server...</font>"
+})
+	end)
+
+	result4:Toggle(Section10, "Auto Rift Sacrifice", "Auto trade 3 required pets to harvest Rift Eggs (Eternal/Divine)", false, true, function()
+	end)
+
+	result4:Toggle(Section10, "Auto Reroll Rift Recipe", "Auto reroll 3 required pets if missing and free rerolls remain", false, true, function()
+	end)
+
+	local Section11 = Tab2:AddSection("Abyss Overlord Boss Arena")
+	Section11:AddSeperator({ " - [ Boss Telemetry & Live Monitor ] - " })
+	local Paragraph2 = Section11:AddParagraph({ "Abyss Overlord Telemetry", "Loading boss arena data..." })
+
+	result4:Button(Section11, "Refresh Boss Telemetry", "Refresh boss and arena telemetry data now", function()
+		Paragraph2:Set({
+	Title = "Abyss Overlord Telemetry",
+	Content = "• <b>Portal:</b> <font color=\"#FF5555\">CLOSED (Opens in 0s)</font> | <b>Location:</b> <font color=\"#AAAAAA\">OUTSIDE ARENA</font>\n• <b>Boss HP:</b> <font color=\"#FFCC00\">7000 / 7000</font> | <b>Phase:</b> <font color=\"#A87AFF\">Waiting</font>\n• <b>Target:</b> <font color=\"#888899\">No active target</font>\n• <b>BossArmHits:</b> <font color=\"#00FF88\">0</font> | <b>BossCrystalHits:</b> <font color=\"#00FF88\">0</font> | <b>Tween:</b> <font color=\"#AAAAAA\">IDLE</font> (300 studs/s)"
+})
+	end)
+
+	Section11:AddSeperator({ " - [ Boss Automation Controls ] - " })
+
+	result4:Toggle(Section11, "Auto Boss Arena", "All-in-one: Auto enter portal, equip bat, fight boss, claim mastery & exit (STAYS ON)", false, true, function()
+		module13.BossEvent.AskSnapshot:InvokeServer()
+	end)
+
+	result4:Toggle(Section11, "Boss Target Highlight (ESP)", "Visual 3D Highlight for Crystals and Adornment for Hand Bone", true, true, function()
+	end)
+
+	Section11:AddSeperator({ " - [ Boss Combat Settings ] - " })
+
+	result4:Dropdown(Section11, "Boss Target Priority", "Target attack priority inside arena", false, { "Auto (Crystals -> Hand)", "Hand Only", "Crystals Only" }, { "Auto (Crystals -> Hand)" }, true, function()
+	end)
+
+	result4:Textbox(Section11, "Boss Tween Speed", "Linear tween flight speed (Default: 300 studs/s)", "300", true, function()
+	end)
+
+	result4:Textbox(Section11, "Boss Safe Altitude", "Safe hover height above arena floor (Default: 16.5 studs)", "16.5", true, function()
+	end)
+
+	result4:Textbox(Section11, "Bat Swing Interval", "Bat swing interval delay in seconds (Default: 0.72s)", "0.72", true, function()
+	end)
+
+	Section11:AddSeperator({ " - [ Manual Diagnostic & Actions ] - " })
+
+	result4:Button(Section11, "Manual Enter Boss Portal", "Send AskEnter remote to enter portal arena", function()
+		local result31 = GetBossRemotes()
+		result31.AskEnter:InvokeServer()
+	end)
+
+	result4:Button(Section11, "Manual Claim Boss Mastery", "Send remote to claim mastery milestones", function()
+		setupModule2(module13)
+	end)
+
+	result4:Button(Section11, "Manual Exit Boss Arena", "Exit arena through exit portal", function()
+		task.spawn(function()
+			local BossArena = workspace:FindFirstChild("BossArena")
+			local BossArenaLeaveTeleport = BossArena:FindFirstChild("BossArenaLeaveTeleport")
+			Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+			Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+			BossArenaLeaveTeleport:FindFirstChild("Hitbox")
+			setupModule2(module13)
+			-- [envlog] error: LPH:8506: Script:3: attempt to compare number < userdata
+		end)
+	end)
+
+	local Section12 = Tab2:AddSection("Automation Sell")
+	require(ReplicatedStorage.Data.Assets)
+	Section12:AddSeperator({ " - [ Pet Sell ] - " })
+
+	result4:Toggle(Section12, "Auto Sell Pet", "Auto sell pets matching rarity / income rules", false, true, function()
+	end)
+
+	result4:Dropdown(Section12, "Sell Pet Rule", "Select condition mode to sell pets (Rarity, Income, or Both)", false, { "Rarity Only", "Income Threshold Only", "Both (Rarity & Income)", "Either (Rarity or Income)" }, { "Rarity Only" }, true, function()
+	end)
+
+	result4:Dropdown(Section12, "Pet Max Rarity", "Rule 1: Sell pets with rarity <= this", false, {
+	"Off",
+	"1 - Common",
+	"2 - Uncommon",
+	"3 - Rare",
+	"4 - Epic",
+	"5 - Legendary",
+	"6 - Mythic",
+	"7 - Cosmic",
+	"8 - Secret",
+	"9 - Eternal",
+	"10 - Divine"
+}, { "3 - Rare" }, true, function(arg115)
+		arg115:match("^(%d+)")
+	end)
+
+	result4:Textbox(Section12, "Pet Income Threshold", "Rule 2: Sell if income < this (e.g. 10m, 10M, 10000000 | 0 = Off)", "0", true, function()
+	end)
+
+	result4:Dropdown(Section12, "Blacklist Sell Pets", "Never sell these specific pets even if they match rules", true, {
+	"Chicken [Common]",
+	"Dog [Common]",
+	"Duckling [Common]",
+	"Frog [Common]",
+	"Jerboa [Common]",
+	"Bird [Uncommon]",
+	"Catfish [Uncommon]",
+	"Fennec [Uncommon]",
+	"Burrowing Owl [Rare]",
+	"Camel [Rare]",
+	"Chimpanzee [Rare]",
+	"Dodo [Rare]",
+	"Lava Gecko [Rare]",
+	"Parrotfish [Rare]",
+	"Penguin [Rare]",
+	"Raccoon [Rare]",
+	"Toucan [Rare]",
+	"Tung Tung Sahur [Rare]",
+	"Turtle [Rare]",
+	"Bananita Dolphinita [Epic]",
+	"Bear [Epic]",
+	"Centapede [Epic]",
+	"Crane [Epic]",
+	"Crocodile [Epic]",
+	"Fox [Epic]",
+	"Lava frog [Epic]",
+	"Swan [Epic]",
+	"Swordfish [Epic]",
+	"Tob Tobi Tob Tob [Epic]",
+	"Trulimero Trulicina [Epic]",
+	"Walrus [Epic]",
+	"Axolotl [Legendary]",
+	"Baby Aurora Dragon [Legendary]",
+	"Brr Brr Patapim [Legendary]",
+	"Cosmic Gecko [Legendary]",
+	"Crustacia [Legendary]",
+	"Flaming Bull [Legendary]",
+	"Gorilla [Legendary]",
+	"Lava Iguana [Legendary]",
+	"Mecha Scorpio [Legendary]",
+	"Orangutini Ananassini [Legendary]",
+	"Polar Bear [Legendary]",
+	"Pterodactyl [Legendary]",
+	"Salamander [Legendary]",
+	"Scorpio [Legendary]",
+	"Shark [Legendary]",
+	"Snake [Legendary]",
+	"Spideron [Legendary]",
+	"Ankylosaurus [Mythic]",
+	"Belula Beluga [Mythic]",
+	"Bladehide [Mythic]",
+	"Chillin Chilli [Mythic]",
+	"Cosmic Gorilla [Mythic]",
+	"Froggo [Mythic]",
+	"Mammoth [Mythic]",
+	"Mecha Froggo [Mythic]",
+	"Orca [Mythic]",
+	"Red Panda [Mythic]",
+	"Sabertooth Tiger [Mythic]",
+	"Sand Spider [Mythic]",
+	"Scorpion [Mythic]",
+	"Shadow Dragon [Mythic]",
+	"Spider [Mythic]",
+	"Tiger [Mythic]",
+	"Beluga Whale [Cosmic]",
+	"Bronto [Cosmic]",
+	"Crawler [Cosmic]",
+	"Demon Imp [Cosmic]",
+	"Drilla [Cosmic]",
+	"Hellhound [Cosmic]",
+	"King Mammoth [Cosmic]",
+	"Koi [Cosmic]",
+	"La Vacca Saturno Saturnita [Cosmic]",
+	"Leviathan [Cosmic]",
+	"Mangolini Parrochini [Cosmic]",
+	"Mantaris [Cosmic]",
+	"Mecha Crawler [Cosmic]",
+	"Rhinotaur [Cosmic]",
+	"Royal Sphinx [Cosmic]",
+	"Snowy Owl [Cosmic]",
+	"Triceratops [Cosmic]",
+	"Whale Shark [Cosmic]",
+	"Bombo Croco [Secret]",
+	"Cerberus [Secret]",
+	"Cosmic Dragon [Secret]",
+	"Cosmic Skeleton Boss [Secret]",
+	"Crocodon [Secret]",
+	"Ember Dragon [Secret]",
+	"Gargoyle [Secret]",
+	"King Snake [Secret]",
+	"Kraken [Secret]",
+	"Mecha Crocodon [Secret]",
+	"Minotaur [Secret]",
+	"Mutant Shark [Secret]",
+	"Scorched Dragon [Secret]",
+	"Stag [Secret]",
+	"TRex [Secret]",
+	"Tralaledon [Secret]",
+	"Yeti [Secret]",
+	"Balrog [Eternal]",
+	"El Maja [Eternal]",
+	"Eternal Lunar Dragon [Eternal]",
+	"Gorilla King [Eternal]",
+	"Ice Dragon [Eternal]",
+	"Krakenoid [Eternal]",
+	"Lava Dragon [Eternal]",
+	"Mecha Krakenoid [Eternal]",
+	"Mosasaurus [Eternal]",
+	"Oni Tiger [Eternal]",
+	"Phoenix [Eternal]",
+	"Strawberry Elephant [Eternal]",
+	"Void Dragon [Eternal]",
+	"Archdemon Dragon [Divine]",
+	"Dreadscale [Divine]",
+	"Kitsune [Divine]",
+	"Mecha Dreadscale [Divine]",
+	"Nightflame [Divine]",
+	"Unicorn [Divine]"
+}, {}, true, function()
+	end)
+
+	result4:Button(Section12, "Sell Pets Now", "Sell pets once (matching active rules & ignoring blacklist)", function()
+		helper6(ReplicatedStorage)
+		-- [envlog] error: LPH:9962: LPH:5713: LPH:5652: LPH:3516: LPH:3014: LPH:3006: Script:3: attempt to compare userdata < number
+	end)
+
+	Section12:AddSeperator({ " - [ Egg Sell ] - " })
+
+	result4:Toggle(Section12, "Auto Sell Egg", "Auto sell unplaced eggs matching rarity filter", false, true, function()
+	end)
+
+	result4:Dropdown(Section12, "Egg Max Rarity", "Sell eggs with rarity <= this", false, {
+	"Off",
+	"1 - Common",
+	"2 - Uncommon",
+	"3 - Rare",
+	"4 - Epic",
+	"5 - Legendary",
+	"6 - Mythic",
+	"7 - Cosmic",
+	"8 - Secret",
+	"9 - Eternal",
+	"10 - Divine"
+}, { "3 - Rare" }, true, function(arg125)
+		arg125:match("^(%d+)")
+	end)
+
+	result4:Button(Section12, "Sell Eggs Now", "Sell unplaced eggs once (matching filter)", function()
+		helper6(ReplicatedStorage)
+		-- [envlog] error: LPH:9982: LPH:5767: LPH:5652: LPH:3516: LPH:3014: LPH:3006: Script:3: attempt to compare userdata < number
+	end)
+
+	local Section13 = Tab3:AddSection("Automation Progression")
+
+	result4:Toggle(Section13, "Auto Buy Trail", "Automatically buy available trails when affordable", false, true, function()
+	end)
+
+	result4:Toggle(Section13, "Auto Upgrade Base", "Automatically upgrade base when money is available", false, true, function()
+	end)
+
+	result4:Toggle(Section13, "Auto Upgrade Treadmill", "Automatically upgrade treadmill when money is available", false, true, function()
+	end)
+
+	result4:Toggle(Section13, "Auto Claim", "Claim offline money & index rewards", false, true, function()
+	end)
+
+	local Section14 = Tab5:AddSection("ESP")
+
+	result4:Toggle(Section14, "ESP Eggs", "Display markers for all area eggs", false, true, function()
+	end)
+
+	result4:Toggle(Section14, "ESP Rare Eggs", "Highlight high tier eggs (>= Mythic)", false, true, function()
+	end)
+
+	result4:Toggle(Section14, "ESP Guards", "Highlight guard outlines based on state", false, true, function()
+	end)
+
+	local Section15 = Tab5:AddSection("Guard Safety")
+
+	result4:Toggle(Section15, "Guard Warning", "Alert when a guard is chasing you", false, true, function()
+	end)
+
+	result4:Toggle(Section15, "Auto Drop Egg", "Automatically drop held egg if chased by guard", false, true, function()
+	end)
+
+	local Section16 = Tab6:AddSection("Server")
+	Section16:AddSeperator({ " - [ Ping ] - " })
+
+	result4:Textbox(Section16, "Set Ping", "", "500", true, function()
+	end)
+
+	result4:Toggle(Section16, "Enable Set Ping", "", false, true, function()
+		task.spawn(function()
+			local result32 = settings()
+			local NetworkSettings = result32:GetService("NetworkSettings")
+			NetworkSettings.IncomingReplicationLag = math.clamp((tonumber(arg147) * 0.0006), 0, 1)
+		end)
+	end)
+
+	Section16:AddSeperator({ " - [ Job Server ] - " })
+
+	result4:Textbox(Section16, "Job ID", "", "", true, function()
+	end)
+
+	result4:Button(Section16, "Join Job ID", "", function()
+		TeleportService:GetDebugId()
+		TeleportService:TeleportToPlaceInstance(0, arg151, Players.LocalPlayer)
+	end)
+
+	Section16:AddSeperator({ " - [ Other ] - " })
+
+	result4:Toggle(Section16, "Auto Execute Script", "", false, true, function()
+		queue_on_teleport(" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua\", true))() ")
+	end)
+
+	result4:Toggle(Section16, "Auto Execute Script When Reconnected", "this means when you reconnectd and then execute the speed hub x script without manually executing, and you must enable 'Auto Reconnect' first, it is useful for farmers ugphone or somethings", true, true, function()
+	end)
+
+	result4:Toggle(Section16, "Auto Reconnect", "", false, true, function()
+	end)
+
+	task.spawn(function()
+		local RobloxPromptGui = CoreGui:FindFirstChild("RobloxPromptGui")
+		local promptOverlay = RobloxPromptGui:FindFirstChild("promptOverlay")
+		onChildAdded(promptOverlay)
+	end)
+
+	local Section17 = Tab6:AddSection("Player")
+	Section17:AddSeperator({ " - [ Local Player ] - " })
+
+	result4:Toggle(Section17, "No Clip", "", false, true, function()
+	end)
+
+	result4:Toggle(Section17, "Infinite Jump", "", false, true, function()
+		local connection12 = UserInputService.JumpRequest:Connect(function()
+			connection12:Disconnect()
+		end)
+	end)
+
+	local Section18 = Tab6:AddSection("Performance")
+	Section18:AddSeperator({ " - [ Graphics & FPS ] - " })
+
+	result4:Toggle(Section18, "Reduce Lag", "Simplify materials, remove shadows & clutter to boost FPS", false, true, function()
+		local descendants4 = workspace:GetDescendants()
+
+		for k12, v18 in pairs(descendants4) do
+			v18.Parent:FindFirstChildWhichIsA("Humanoid")
+		end
+
+		Lighting.GlobalShadows = false
+		Lighting.FogEnd = 9000000000
+	end)
+
+	result4:Toggle(Section18, "Hide Own Pets", "Hide your equipped pets locally to reduce lag", false, true, function()
+		local ClientRenderedAssets2 = workspace:FindFirstChild("ClientRenderedAssets")
+		local children2 = ClientRenderedAssets2:GetChildren()
+
+		for i7, v19 in ipairs(children2) do
+			v19:GetAttribute("OwnerUserId")
+		end
+	end)
+
+	result4:Toggle(Section18, "Hide Own Eggs", "Hide your placed eggs locally to reduce lag", false, true, function()
+		local children3 = workspace:GetChildren()
+
+		for i8, v20 in ipairs(children3) do
+		end
+	end)
+
+	result4:Toggle(Section18, "Hide Other Eggs", "Hide other players' placed eggs to boost FPS", false, true, function()
+		local children4 = workspace:GetChildren()
+
+		for i9, v21 in ipairs(children4) do
+		end
+	end)
+
+	result4:Toggle(Section18, "Hide Money Animation", "Hide floating money popup text that rises from pets", false, true, function()
+		local Terrain2 = workspace:FindFirstChild("Terrain")
+		local children5 = Terrain2:GetChildren()
+
+		for i10, v22 in ipairs(children5) do
+		end
+	end)
+
+	result4:Toggle(Section18, "Show Screen White", "Disable 3D rendering to drastically reduce CPU/GPU usage", false, true, function()
+		RunService:Set3dRenderingEnabled(false)
+	end)
+
+	result4:Toggle(Section18, "Show Screen Black", "Set lighting exposure to minimum for power saving", false, true, function()
+		Lighting.ExposureCompensation = -10
+	end)
+
+	Section18:AddSeperator({ " - [ Game Settings ] - " })
+	local result33 = module17.Flag("HideOtherPets")
+
+	result4:Toggle(Section18, "Hide Other Pets", "Hide other players' pets via game settings", result33, true, function(arg180)
+		module17.Write("HideOtherPets", arg180)
+	end)
+
+	local result34 = module17.Flag("DisableVideos")
+
+	result4:Toggle(Section18, "Disable Video", "Disable treadmill video frames via game settings", result34, true, function(arg182)
+		module17.Write("DisableVideos", arg182)
+	end)
+
+	local result35 = module17.Flag("Music")
+
+	result4:Toggle(Section18, "Music", "Toggle in-game background music via game settings", result35, true, function(arg184)
+		module17.Write("Music", arg184)
+	end)
+
+	local Section19 = Tab6:AddSection("Misc")
+	Section19:AddSeperator({ " - [ Utilities ] - " })
+	local Section20 = Tab7:AddSection("Webhook")
+
+	result4:Textbox(Section20, "Discord Webhook URL", "Paste your Discord webhook URL here", "", true, function()
+	end)
+
+	result4:Toggle(Section20, "Webhook Egg Steal", "Send Discord notification when an egg is stolen (sent on idle)", false, true, function()
+	end)
+
+	result4:Dropdown(Section20, "Webhook Min Rarity", "Only send notification for eggs with rarity >= this", false, {
+	"All",
+	"1 - Common",
+	"2 - Uncommon",
+	"3 - Rare",
+	"4 - Epic",
+	"5 - Legendary",
+	"6 - Mythic",
+	"7 - Cosmic",
+	"8 - Secret",
+	"9 - Eternal",
+	"10 - Divine"
+}, { "All" }, true, function()
+	end)
+
+	result4:Button(Section20, "Test Webhook", "Send a test notification to verify URL", function()
+		local result36 = tostring(math.abs(math.modf(math.round(((module15.Directory.Phoenix.ModelWeight * 1) * 100)) / 100))):reverse()
+		local result37 = result36:gsub("(%d%d%d)", "%1,")
+		local result38 = result37:reverse()
+		result38:gsub("^,", "")
+		-- [envlog] error: LPH:10270: LPH:6481: LPH:6451: invalid argument #1 to 'abs' (number expected, got nil)
+	end)
+
+	local Section21 = Tab7:AddSection("Reset Config")
+
+	result4:Button(Section21, "Reset Script Config", "", function()
+		-- isfolder("Speed_Hub") -> false
+		-- isfolder("SpeedHubX") -> false
+		-- isfolder("Speed Hub X") -> false
+		-- isfolder("Speed Hub") -> false
+		-- isfolder("Speed_Hub_X") -> false
+	end)
+
+	task.spawn(function()
+		result2:AddSettingUi(Window)
+	end, result2, Window)
+end)
+
+-- Discord:https://discord.gg/EH23mXVqce
