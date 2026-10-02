@@ -98,16 +98,17 @@
             font-weight: 600;
         }
         .btn-task {
-            padding: 8px 16px;
+            padding: 8px 14px;
             border-radius: 8px;
             font-size: 13px;
             font-weight: 600;
             cursor: pointer;
             border: none;
-            text-decoration: none;
             transition: all 0.2s;
             color: white;
             white-space: nowrap;
+            display: inline-block;
+            text-align: center;
         }
         .btn-yt { background-color: var(--yt-color); }
         .btn-yt:hover { background-color: #cc0000; }
@@ -115,9 +116,17 @@
         .btn-tt { background-color: var(--tt-color); }
         .btn-tt:hover { background-color: #333333; }
 
+        .btn-task.counting {
+            background-color: #f59e0b !important;
+            pointer-events: none;
+            cursor: not-allowed;
+            font-size: 12px;
+        }
+
         .btn-task.done {
             background-color: var(--success-color) !important;
             pointer-events: none;
+            cursor: default;
         }
 
         .btn-next-container {
@@ -164,7 +173,7 @@
                     <h4>🔴 Đăng ký YouTube</h4>
                     <p id="desc-yt">Chưa đăng ký</p>
                 </div>
-                <a href="https://youtube.com/@binngamingg?si=DiC2PvPzceaba-yY" target="_blank" class="btn-task btn-yt" id="btn-yt" onclick="verifyYouTube()">Đăng ký</a>
+                <button class="btn-task btn-yt" id="btn-yt" onclick="startYouTubeTask()">Đăng ký</button>
             </div>
 
             <!-- Mục 2: TikTok -->
@@ -173,7 +182,7 @@
                     <h4>🖤 Theo dõi TikTok</h4>
                     <p id="desc-tt">Chưa theo dõi</p>
                 </div>
-                <a href="https://www.tiktok.com" target="_blank" class="btn-task btn-tt" id="btn-tt" onclick="verifyTikTok()">Theo dõi</a>
+                <button class="btn-task btn-tt" id="btn-tt" onclick="startTikTokTask()">Theo dõi</button>
             </div>
 
             <!-- Mục 3: Tiếp tục -->
@@ -194,47 +203,82 @@
     <script>
         let ytDone = false;
         let ttDone = false;
+        let isYtRunning = false;
+        let isTtRunning = false;
 
-        function verifyYouTube() {
+        function startYouTubeTask() {
+            if (isYtRunning || ytDone) return;
+            isYtRunning = true;
+
+            // Mở link YouTube
+            window.open('https://youtube.com/@binngamingg?si=DiC2PvPzceaba-yY', '_blank');
+
             const btn = document.getElementById('btn-yt');
             const desc = document.getElementById('desc-yt');
             const box = document.getElementById('box-yt');
 
-            desc.innerText = "Đang xác thực...";
-            
-            // Giả lập thời gian để người dùng thực hiện thao tác đăng ký trên Youtube
-            setTimeout(() => {
-                ytDone = true;
-                btn.innerText = "Đã xong ✓";
-                btn.classList.add('done');
-                desc.innerText = "Đã hoàn thành";
-                box.classList.add('completed');
-                checkStatus();
-            }, 2000);
+            btn.classList.add('counting');
+            desc.innerText = "Đang kiểm tra...";
+
+            let timeLeft = 20;
+            btn.innerText = `Chờ (${timeLeft}s)`;
+
+            let timer = setInterval(() => {
+                timeLeft--;
+                if (timeLeft > 0) {
+                    btn.innerText = `Chờ (${timeLeft}s)`;
+                } else {
+                    clearInterval(timer);
+                    ytDone = true;
+                    btn.innerText = "Đã xong ✓";
+                    btn.classList.remove('counting');
+                    btn.classList.add('done');
+                    desc.innerText = "Đã hoàn thành";
+                    box.classList.add('completed');
+                    checkStatus();
+                }
+            }, 1000);
         }
 
-        function verifyTikTok() {
+        function startTikTokTask() {
+            if (isTtRunning || ttDone) return;
+            isTtRunning = true;
+
+            // Mở link TikTok
+            window.open('https://www.tiktok.com', '_blank');
+
             const btn = document.getElementById('btn-tt');
             const desc = document.getElementById('desc-tt');
             const box = document.getElementById('box-tt');
 
-            desc.innerText = "Đang xác thực...";
+            btn.classList.add('counting');
+            desc.innerText = "Đang kiểm tra...";
 
-            setTimeout(() => {
-                ttDone = true;
-                btn.innerText = "Đã xong ✓";
-                btn.classList.add('done');
-                desc.innerText = "Đã hoàn thành";
-                box.classList.add('completed');
-                checkStatus();
-            }, 2000);
+            let timeLeft = 20;
+            btn.innerText = `Chờ (${timeLeft}s)`;
+
+            let timer = setInterval(() => {
+                timeLeft--;
+                if (timeLeft > 0) {
+                    btn.innerText = `Chờ (${timeLeft}s)`;
+                } else {
+                    clearInterval(timer);
+                    ttDone = true;
+                    btn.innerText = "Đã xong ✓";
+                    btn.classList.remove('counting');
+                    btn.classList.add('done');
+                    desc.innerText = "Đã hoàn thành";
+                    box.classList.add('completed');
+                    checkStatus();
+                }
+            }, 1000);
         }
 
         function checkStatus() {
             if (ytDone && ttDone) {
                 const nextBtn = document.getElementById('btnNext');
                 nextBtn.disabled = false;
-                nextBtn.classList.add('active'); // Chuyển sang màu xanh lá chuẩn yêu cầu
+                nextBtn.classList.add('active');
             }
         }
 
@@ -246,5 +290,4 @@
         }
     </script>
 </body>
-  </html>
-  
+</html>
