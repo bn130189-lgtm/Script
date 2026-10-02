@@ -20,10 +20,10 @@ local function fn2()
     end
 
     local function fn3()
-        local chilliHubSaeCleanup = (typeof(getgenv) == "function" and getgenv() or _G).ChilliHubSaeCleanup
+        local binnSaeCleanup = (typeof(getgenv) == "function" and getgenv() or _G).atras | giabìnhSaeCleanup
 
-        if type(chilliHubSaeCleanup) == "function" then
-            pcall(chilliHubSaeCleanup)
+        if type(binnSaeCleanup) == "function" then
+            pcall(binnSaeCleanup)
         end
 
         local tbl = { game:GetService("CoreGui") }
@@ -61,7 +61,7 @@ local function fn2()
         end
 
         if n > 0 then
-            fn("cleared " .. n .. " leftover Chilli UI screens")
+            fn("cleared " .. n .. " leftover binn UI screens")
         end
     end
 
@@ -69,7 +69,7 @@ local function fn2()
         local chunk, v2 = loadstring((fn2()))
         assert(chunk, v2)
         local v3 = chunk()
-        assert(type(v3) == "function", "Chilli Library bootstrap is invalid.")
+        assert(type(v3) == "function", "binn Library bootstrap is invalid.")
         local v4 = table.create(45)
         local n = 1
 
